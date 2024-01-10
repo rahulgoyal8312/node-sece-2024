@@ -12,19 +12,9 @@ Node: https://nodejs.org/en/learn/getting-started/introduction-to-nodejs
 ----------
 MongoDB installation: https://www.prisma.io/dataguide/mongodb/setting-up-a-local-mongodb-database
 MongoDB official documentation: https://www.mongodb.com/
+NPM Mongoose: https://www.npmjs.com/package/mongoose
 Mongoose: https://mongoosejs.com/
+MongoDB compass for GUI Access: https://www.mongodb.com/products/tools/compass
+Mongoose Available queries: https://mongoosejs.com/docs/api/query.html
 
-
-
-Username: admin
-Pass: ZmTYtTUUQWGC42Ju
-
-
-
-const mongoose = require('mongoose');
-module.exports = function () {
-    mongoose.connect('mongodb+srv://admin:2E2KtfgBCygDzrZF@rg.tbcbpkc.mongodb.net/', {
-        dbName: "mern-2024"
-    }).then(() => console.log(`Connected to MongoDB`))
-        .catch(ex => console.error(ex))
-}
+NodeJs Boilerplate: https://github.com/rahulgoyal8312/nodejs-boilerplate
